@@ -1,6 +1,9 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "declaration": true,
+    "outDir": "pack",
+    "rootDir": "src",
     "lib": [
       "dom",
       "es2016",
@@ -10,14 +13,11 @@
     "downlevelIteration": true,
     "experimentalDecorators": false,
     "forceConsistentCasingInFileNames": true,
-    "module": "commonjs",
-    "moduleResolution": "node",
     "noFallthroughCasesInSwitch": true,
     "noImplicitAny": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
     "noUnusedLocals": true,
-    "sourceMap": true,
     "strictNullChecks": true,
     "target": "es5"
   },
@@ -26,6 +26,6 @@
     "**/*.test.ts"
   ],
   "include": [
-    "./src/**/*.ts"
+    "src/**/*.ts"
   ]
 }

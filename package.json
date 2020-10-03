@@ -1,9 +1,10 @@
 {
   "name": "async-task-limiter",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "limit for concurent async tasks",
   "main": "index.js",
   "scripts": {
+    "build": "rm -rf ./pack && tsc && cp -rf CHANGELOG.md README.md package.json pack",
     "test": "jest"
   },
   "author": "andrey mikhaylov",
