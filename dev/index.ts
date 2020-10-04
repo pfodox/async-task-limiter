@@ -1,4 +1,4 @@
-import { AsyncTask, ConcurentTaskQueue } from '../src';
+import { AsyncTask, ConcurrentTaskQueue } from '../src';
 
 const getTask = (taskNumber: number) => () => {
   // @ts-ignore
@@ -19,7 +19,7 @@ const asyncTask3 = new AsyncTask(getTask(3), onResolve);
 const asyncTask4 = new AsyncTask(getTask(4), onResolve);
 const asyncTask5 = new AsyncTask(getTask(5), onResolve);
 
-const taskQueue = new ConcurentTaskQueue({
+const taskQueue = new ConcurrentTaskQueue({
   tasks: [asyncTask, asyncTask2, asyncTask3, asyncTask4, asyncTask5],
   concurrency: 2,
   stopOnAllVacant: true,

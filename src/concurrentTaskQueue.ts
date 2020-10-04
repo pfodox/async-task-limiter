@@ -7,7 +7,7 @@ interface IConcurentAsyncTaskQueueOptions<T> {
   stopOnAllVacant?: boolean;
 }
 
-export class ConcurentTaskQueue<T> {
+export class ConcurrentTaskQueue<T> {
   private concurrency: number;
   private stopOnAllVacant: boolean;
   private taskQueue: IAsyncTask<T>[] = [];

@@ -1,2 +1,2 @@
 export * from './asyncTask';
-export * from './concurentTaskQueue';
+export * from './concurrentTaskQueue';
