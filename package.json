@@ -3,6 +3,15 @@
   "version": "0.0.1",
   "description": "limit for concurent async tasks",
   "main": "index.js",
+  "keywords": [
+    "async",
+    "limiter",
+    "asynchronous",
+    "job",
+    "task",
+    "concurrency",
+    "concurrent"
+  ],
   "scripts": {
     "build": "rm -rf ./pack && tsc && cp -rf CHANGELOG.md README.md package.json pack",
     "test": "jest"
