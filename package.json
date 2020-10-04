@@ -1,6 +1,6 @@
 {
   "name": "async-task-limiter",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "limit for concurent async tasks",
   "main": "index.js",
   "keywords": [
@@ -15,6 +15,10 @@
   "scripts": {
     "build": "rm -rf ./pack && tsc && cp -rf CHANGELOG.md README.md package.json pack",
     "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pfodox/async-task-limiter"
   },
   "author": "andrey mikhaylov",
   "license": "MIT",

@@ -9,3 +9,7 @@
 ## 0.0.2
 
 * FIX: keywords to package.json added
+
+## 0.0.3
+
+* FIX: repository link added to package.json 
