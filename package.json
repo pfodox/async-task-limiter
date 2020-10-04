@@ -1,6 +1,6 @@
 {
   "name": "async-task-limiter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "limit for concurent async tasks",
   "main": "index.js",
   "keywords": [
